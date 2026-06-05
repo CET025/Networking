@@ -6,13 +6,13 @@
 - É imprimido para o terminal o valor do novo socket descriptor e o antigo continua a espera de novas conexões.
 
 -   getaddrinfo();
-        |
+        ->
     socket();
-        |
+        ->
     bind();
-        |
+        ->
     listen();
-        |
+        ->
     accept();
 
 ## Compilar
